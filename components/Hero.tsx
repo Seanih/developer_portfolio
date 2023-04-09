@@ -39,9 +39,9 @@ function Hero() {
 								sequence={[
 									'Web Development',
 									2000,
-									'Cloud Based Apps',
+									'Cloud Based Applications',
 									2000,
-									'Blockchain Apps',
+									'Blockchain Applications',
 									2000,
 								]}
 								repeat={Infinity}
