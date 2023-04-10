@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import Hero from '@/components/Hero';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
@@ -16,6 +17,7 @@ export default function Home() {
 			<Navbar />
 			<main className='relative top-[84px] w-full'>
 				<Hero />
+				<About />
 			</main>
 		</div>
 	);
