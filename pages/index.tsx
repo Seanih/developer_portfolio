@@ -2,11 +2,12 @@ import About from '@/components/About';
 import Hero from '@/components/Hero';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
+import { useState } from 'react';
 import Navbar from '../components/Navbar';
 
-const inter = Inter({ subsets: ['latin'] });
-
 export default function Home() {
+	const [showMobileNav, setShowMobileNav] = useState(false);
+
 	return (
 		<div className='flex flex-col items-center'>
 			<Head>
@@ -14,8 +15,16 @@ export default function Home() {
 				<meta name='description' content='My portfolio website' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Navbar />
-			<main className='relative top-[84px] w-full'>
+
+			<Navbar
+				showMobileNav={showMobileNav}
+				setShowMobileNav={setShowMobileNav}
+			/>
+
+			<main
+				className='relative top-[84px] w-full'
+				onClick={() => setShowMobileNav(false)}
+			>
 				<Hero />
 				<About />
 			</main>

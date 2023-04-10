@@ -8,7 +8,7 @@ function Hero() {
 	const [animationCompleted, setAnimationCompleted] = useState(false);
 
 	return (
-		<section className='mt-16'>
+		<section id='hero' className='mt-16'>
 			<Tilt
 				className='parallax-effect w-[90%] md:w-3/4 mx-auto max-w-[900px] border p-4 rounded-2xl bg-gradient-radial sm:bg-gradient-conic from-sky-800 via-black to-cyan-700 pb-8'
 				perspective={1000}
@@ -25,7 +25,7 @@ function Hero() {
 							<span className='font-bold text-xl'>Name: </span>
 							<TypeAnimation
 								sequence={['Sean Anih']}
-								speed={8}
+								speed={10}
 								cursor={false}
 								className='px-4 ml-4 border-b'
 							/>
@@ -33,10 +33,9 @@ function Hero() {
 						<div className='flex items-end md:justify-center mx-4'>
 							<span className='font-bold text-xl'>Occupation: </span>
 							<TypeAnimation
-								sequence={['', 1000, 'FullStack Developer', 9250]}
-								speed={9}
+								sequence={['', 1000, 'FullStack Developer']}
+								speed={11}
 								cursor={false}
-								repeat={Infinity}
 								className='px-4 ml-4 border-b text-center'
 							/>
 						</div>
