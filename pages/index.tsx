@@ -16,10 +16,12 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<Navbar
-				showMobileNav={showMobileNav}
-				setShowMobileNav={setShowMobileNav}
-			/>
+			<header className='w-full'>
+				<Navbar
+					showMobileNav={showMobileNav}
+					setShowMobileNav={setShowMobileNav}
+				/>
+			</header>
 
 			<main
 				className='relative top-[84px] w-full'
