@@ -33,7 +33,7 @@ function Hero() {
 						<div className='flex items-end md:justify-center mx-4'>
 							<span className='font-bold text-xl'>Occupation: </span>
 							<TypeAnimation
-								sequence={['', 1000, 'FullStack Developer']}
+								sequence={['', 1000, 'Software Engineer']}
 								speed={11}
 								cursor={false}
 								className='px-4 ml-4 border-b text-center'
@@ -43,7 +43,7 @@ function Hero() {
 					{/* Areas of focus */}
 					<div className='flex items-end md:mt-4 sm:justify-center rounded-xl px-12'>
 						<span className='font-bold text-xl'>Area(s) of focus: </span>
-						<div className='px-4 text-center ml-4 border-b'>
+						<div className='px-4 text-center ml-4 border-b text-base sm:text-xl md:text-2xl'>
 							<TypeAnimation
 								sequence={[
 									'',

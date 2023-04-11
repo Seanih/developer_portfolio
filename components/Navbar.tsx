@@ -23,9 +23,9 @@ function Navbar({ showMobileNav, setShowMobileNav }: NavbarProps) {
 				</ScrollLink>
 
 				{/* nav links */}
-				<div className='hidden sm:flex text-white/80 text-xl bg-black'>
+				<div className='hidden sm:flex text-slate-200 text-xl bg-black'>
 					<div className='hover-link hover:text-sky-500 hover:cursor-pointer hover:underline decoration-2 hover:underline-offset-8 pr-4 border-r'>
-						<ScrollLink to='about' smooth={true}>
+						<ScrollLink to='about' smooth={true} offset={-100}>
 							About
 						</ScrollLink>
 					</div>
@@ -62,7 +62,7 @@ function Navbar({ showMobileNav, setShowMobileNav }: NavbarProps) {
 						: 'sm:hidden z-[50] fixed border-x border-b border-white w-full bg-black py-8 top-[-100%] ease-in-out duration-300'
 				}
 			>
-				<ul className='flex gap-10 px-12 text-2xl text-white/80'>
+				<ul className='flex gap-10 px-12 text-2xl text-slate-200'>
 					<li className='hover-link hover:cursor-pointer hover:text-sky-500 hover:underline hover:underline-offset-8 hover:scale-105 decoration-2'>
 						<ScrollLink
 							to='about'

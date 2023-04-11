@@ -1,6 +1,6 @@
 import About from '@/components/About';
 import Hero from '@/components/Hero';
-import { Inter } from 'next/font/google';
+import Skills from '@/components/Skills';
 import Head from 'next/head';
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
@@ -24,11 +24,12 @@ export default function Home() {
 			</header>
 
 			<main
-				className='relative top-[84px] w-full'
+				className='relative top-[84px] w-full pb-8'
 				onClick={() => setShowMobileNav(false)}
 			>
 				<Hero />
 				<About />
+				<Skills />
 			</main>
 		</div>
 	);
