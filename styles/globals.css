@@ -45,6 +45,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: black;
 	color: white;
@@ -54,7 +58,6 @@ body {
 	background-repeat: no-repeat;
 	height: 100vh;
 	background-attachment: fixed;
-	scroll-behavior: smooth;
 }
 
 .white-glow {
