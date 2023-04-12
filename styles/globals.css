@@ -59,22 +59,6 @@ body {
 	height: 100vh;
 	background-attachment: fixed;
 }
-/* 
-#about {
-	scroll-margin-top: 84px;
-}
-
-#skills {
-	scroll-margin-top: 84px;
-}
-
-#projects {
-	scroll-margin-top: 84px;
-}
-
-#contact {
-	scroll-margin-top: 84px;
-} */
 
 .white-glow {
 	text-shadow: 0px 0px 16px white;

@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import SoftSkills from './SoftSkills';
+import TechStack from './TechStack';
 
 function Skills() {
 	const [activeTab, setActiveTab] = useState('tech_stack');
@@ -10,51 +12,32 @@ function Skills() {
 				{/* Headers */}
 				<div className='grid grid-cols-2 border'>
 					<div
-						className='w-full text-center border-r bg-sky-800 hover:bg-sky-900 hover:cursor-pointer'
+						className={`group w-full text-center border-r hover:bg-sky-900 hover:cursor-pointer ${
+							activeTab === 'tech_stack' ? 'bg-sky-900' : 'bg-sky-800'
+						}`}
 						onClick={() => setActiveTab('tech_stack')}
 					>
-						<h3 className='py-4'>Tech Stack</h3>
+						<p className='py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in'>
+							Tech Stack
+						</p>
 					</div>
 					<div
-						className='w-full text-center border-l bg-cyan-700 hover:bg-cyan-800 hover:cursor-pointer'
+						className={`group w-full text-center border-l hover:bg-cyan-800 hover:cursor-pointer ${
+							activeTab === 'soft_skills' ? 'bg-cyan-800' : 'bg-cyan-700'
+						}`}
 						onClick={() => setActiveTab('soft_skills')}
 					>
-						<h3 className='py-4'>Soft Skills</h3>
+						<p className='py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in'>
+							Soft Skills
+						</p>
 					</div>
 				</div>
 
 				{/* Listed Skills */}
 				{activeTab == 'tech_stack' ? (
-					<div className='border bg-gradient-to-br from-sky-900 to-black py-8 px-4 sm:px-8 text-xl'>
-						<div className='flex justify-around'>
-							<div className='justify-self-center text-base sm:text-xl'>
-								<span className='underline underline-offset-8'>
-									Languages/Frameworks
-								</span>
-								<ul className='mt-4 pl-4 list-disc'>
-									<li>Javascript | Typescript</li>
-									<li>React | Next JS</li>
-									<li>Solidity</li>
-									<li>SQL (Postgres & MySQL)</li>
-									<li>NoSQL (MongoDB)</li>
-								</ul>
-							</div>
-							<div className='justify-self-center text-base sm:text-xl'>
-								<span className='underline underline-offset-8'>Dev Tools</span>
-								<ul className='mt-4 pl-4 list-disc'>
-									<li>VS Code</li>
-									<li>Git | Github</li>
-									<li>AWS RDS</li>
-									<li>Hardhat</li>
-									<li>Vercel</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					<TechStack activeTab={activeTab} />
 				) : (
-					<div className='border bg-gradient-to-bl from-cyan-800 to-black p-8 text-xl'>
-						Soft Skills
-					</div>
+					<SoftSkills />
 				)}
 			</div>
 		</section>
