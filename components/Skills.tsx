@@ -17,7 +17,11 @@ function Skills() {
 						}`}
 						onClick={() => setActiveTab('tech_stack')}
 					>
-						<p className='py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in'>
+						<p
+							className={`py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in ${
+								activeTab == 'tech_stack' ? 'underline underline-offset-4' : ''
+							}`}
+						>
 							Tech Stack
 						</p>
 					</div>
@@ -27,18 +31,18 @@ function Skills() {
 						}`}
 						onClick={() => setActiveTab('soft_skills')}
 					>
-						<p className='py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in'>
+						<p
+							className={`py-4 text-2xl font-bold group-hover:scale-110 duration-100 ease-in ${
+								activeTab == 'soft_skills' ? 'underline underline-offset-4' : ''
+							}`}
+						>
 							Soft Skills
 						</p>
 					</div>
 				</div>
 
 				{/* Listed Skills */}
-				{activeTab == 'tech_stack' ? (
-					<TechStack activeTab={activeTab} />
-				) : (
-					<SoftSkills />
-				)}
+				{activeTab == 'tech_stack' ? <TechStack /> : <SoftSkills />}
 			</div>
 		</section>
 	);

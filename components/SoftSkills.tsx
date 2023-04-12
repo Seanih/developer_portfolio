@@ -9,15 +9,15 @@ function SoftSkills() {
 						<li>Creativity</li>
 						<li>Resourcefulness</li>
 						<li>Time Management</li>
-						<li>Conflict Resolution</li>
+						<li>Persistence</li>
 					</ul>
 				</div>
 				<div className='justify-self-center text-base sm:text-xl'>
 					<ul className='pl-4 list-disc'>
+						<li>Good Communication</li>
 						<li>Conciseness</li>
-						<li>Verbal Communication</li>
-						<li>Written Communication</li>
-						<li>Persistance</li>
+						<li>Conflict resolution</li>
+						<li>Teamwork</li>
 					</ul>
 				</div>
 			</div>
