@@ -15,13 +15,12 @@ function About() {
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					help you build products
 				</span>{' '}
-				that are scalable with a competitive edge. Prior to learning web
+				that are efficient with a competitive edge. Prior to learning web
 				development, I spent 11 years freelancing as an audio engineer while
-				working in the mortgage industry for 5 of those years. My experiences
-				have given me a unique perspective on problem-solving and project
-				management that I bring to my work as a developer. I'm excited to
-				continue growing as a developer and helping you meet your business
-				needs!
+				working in the mortgage industry for 5 years. My experiences have given
+				me a creative perspective on problem-solving and project management that
+				I bring to my work as a developer. I'm excited to continue growing as a
+				developer and helping you meet your business needs!
 			</p>
 		</section>
 	);
