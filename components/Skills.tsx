@@ -1,14 +1,23 @@
 import { useState } from 'react';
 import SoftSkills from './SoftSkills';
 import TechStack from './TechStack';
+import { motion, useScroll, useTransform } from 'framer-motion';
 
 function Skills() {
 	const [activeTab, setActiveTab] = useState('tech_stack');
 
+	const { scrollYProgress } = useScroll();
+	const scale = useTransform(scrollYProgress, [0, 1], [0.2, 1]);
+
 	return (
-		<section id='skills'>
+		<motion.section style={{ scale }} id='skills'>
 			<h2 className='text-center my-8'>Skills</h2>
-			<div className='w-[90%] md:w-3/4 max-w-[900px] mx-auto'>
+			<motion.div
+				style={{
+					scaleY: scrollYProgress,
+				}}
+				className='w-[90%] md:w-3/4 max-w-[900px] mx-auto'
+			>
 				{/* Headers */}
 				<div className='grid grid-cols-2 border'>
 					<div
@@ -43,8 +52,8 @@ function Skills() {
 
 				{/* Listed Skills */}
 				{activeTab == 'tech_stack' ? <TechStack /> : <SoftSkills />}
-			</div>
-		</section>
+			</motion.div>
+		</motion.section>
 	);
 }
 export default Skills;

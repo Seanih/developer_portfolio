@@ -10,6 +10,7 @@ function TechStack() {
 						<li>Javascript | Typescript</li>
 						<li>React | Next JS</li>
 						<li>Solidity</li>
+						<li>Tailwind CSS</li>
 						<li>SQL (Postgres & MySQL)</li>
 						<li>NoSQL (MongoDB)</li>
 					</ul>

@@ -14,9 +14,9 @@ function SoftSkills() {
 				</div>
 				<div className='justify-self-center text-base sm:text-xl'>
 					<ul className='pl-4 list-disc'>
-						<li>Good Communication</li>
+						<li>Communication</li>
 						<li>Conciseness</li>
-						<li>Conflict resolution</li>
+						<li>Conflict Resolution</li>
 						<li>Teamwork</li>
 					</ul>
 				</div>

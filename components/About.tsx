@@ -11,7 +11,7 @@ function About() {
 				who focuses on building cloud-based and blockchain applications. I enjoy
 				learning and experimenting to help improve my skills. Currently, I'm
 				diving deeper into data structures & algorithms and exploring ways to
-				integrate AI into applications to{' '}
+				integrate AI into applications so I can{' '}
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					help you build products
 				</span>{' '}
