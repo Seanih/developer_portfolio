@@ -1,7 +1,7 @@
 function TechStack() {
 	return (
 		<div className='border bg-gradient-to-br from-sky-900 to-black py-8 sm:px-8 text-xl'>
-			<div className='grid grid-cols-2'>
+			<div className='flex justify-around'>
 				<div className='justify-self-center text-base sm:text-xl'>
 					<span className='underline underline-offset-8'>
 						Languages/Frameworks
