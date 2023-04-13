@@ -15,16 +15,16 @@ export const devTools = [
 	'Vercel',
 ];
 
-export const softSkills1 = [
+export const softSkillsLeft = [
 	'Creativity',
 	'Resourcefulness',
 	'Time Management',
 	'Persistence',
 ];
 
-export const softSkills2 = [
+export const softSkillsRight = [
 	'Communication',
-	'Conciseness',
+	'Adaptability',
 	'Conflict Resolution',
 	'Teamwork',
 ];

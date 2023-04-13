@@ -1,4 +1,4 @@
-import { softSkills1, softSkills2 } from '../constants/AllMySkills';
+import { softSkillsLeft, softSkillsRight } from '../constants/AllMySkills';
 import { motion } from 'framer-motion';
 
 function SoftSkills() {
@@ -35,7 +35,7 @@ function SoftSkills() {
 						whileInView='visible'
 						className='pl-4 list-disc'
 					>
-						{softSkills1.map((skill, index) => (
+						{softSkillsLeft.map((skill, index) => (
 							<motion.li key={index} variants={item}>
 								{skill}
 							</motion.li>
@@ -49,7 +49,7 @@ function SoftSkills() {
 						whileInView='visible'
 						className='pl-4 list-disc'
 					>
-						{softSkills2.map((skill, index) => (
+						{softSkillsRight.map((skill, index) => (
 							<motion.li key={index} variants={item}>
 								{skill}
 							</motion.li>

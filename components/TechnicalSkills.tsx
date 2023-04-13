@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { languages, devTools } from '../constants/AllMySkills';
 
-function HardSkills() {
+function TechnicalSkills() {
 	// Framer Motion attributes
 	const container = {
 		visible: {
@@ -63,4 +63,4 @@ function HardSkills() {
 		</div>
 	);
 }
-export default HardSkills;
+export default TechnicalSkills;

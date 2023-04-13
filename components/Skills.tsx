@@ -1,5 +1,5 @@
 import SoftSkills from './SoftSkills';
-import HardSkills from './HardSkills';
+import TechnicalSkills from './TechnicalSkills';
 
 function Skills() {
 	return (
@@ -10,10 +10,10 @@ function Skills() {
 					<h3
 						className={`w-full text-center border bg-sky-800 hover:bg-sky-900 py-4 font-bold`}
 					>
-						Hard
+						Technical
 					</h3>
 
-					<HardSkills />
+					<TechnicalSkills />
 
 					<h3
 						className={`w-full text-center border bg-cyan-700 hover:bg-cyan-800 py-4 font-bold`}
