@@ -1,24 +1,60 @@
+import { softSkills1, softSkills2 } from '../constants/AllMySkills';
+import { motion } from 'framer-motion';
+
 function SoftSkills() {
+	// Framer Motion attributes
+	const container = {
+		hidden: { opacity: 1, scale: 0 },
+		visible: {
+			opacity: 1,
+			scale: 1,
+			transition: {
+				delayChildren: 0.3,
+				staggerChildren: 0.2,
+			},
+		},
+	};
+
+	const item = {
+		hidden: { y: 20, opacity: 0 },
+		visible: {
+			y: 0,
+			opacity: 1,
+		},
+	};
+
 	return (
 		<div
 			className={`border bg-gradient-to-bl from-cyan-800 to-black py-8 sm:px-8 text-xl`}
 		>
 			<div className='flex justify-around'>
 				<div className='justify-self-center text-base sm:text-xl'>
-					<ul className='pl-4 list-disc'>
-						<li>Creativity</li>
-						<li>Resourcefulness</li>
-						<li>Time Management</li>
-						<li>Persistence</li>
-					</ul>
+					<motion.ul
+						variants={container}
+						initial='hidden'
+						whileInView='visible'
+						className='pl-4 list-disc'
+					>
+						{softSkills1.map((skill, index) => (
+							<motion.li key={index} variants={item}>
+								{skill}
+							</motion.li>
+						))}
+					</motion.ul>
 				</div>
 				<div className='justify-self-center text-base sm:text-xl'>
-					<ul className='pl-4 list-disc'>
-						<li>Communication</li>
-						<li>Conciseness</li>
-						<li>Conflict Resolution</li>
-						<li>Teamwork</li>
-					</ul>
+					<motion.ul
+						variants={container}
+						initial='hidden'
+						whileInView='visible'
+						className='pl-4 list-disc'
+					>
+						{softSkills2.map((skill, index) => (
+							<motion.li key={index} variants={item}>
+								{skill}
+							</motion.li>
+						))}
+					</motion.ul>
 				</div>
 			</div>
 		</div>
