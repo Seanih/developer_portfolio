@@ -10,7 +10,7 @@ interface NavbarProps {
 function Navbar({ showMobileNav, setShowMobileNav }: NavbarProps) {
 	return (
 		<>
-			<nav className='fixed z-[100] w-full bg-black/90 flex justify-between items-center py-6 px-8 max-w-[1500px]'>
+			<nav className='fixed z-[100] w-full bg-black/90 flex justify-between items-center py-6 px-12 max-w-[1500px]'>
 				<Link
 					className='text-2xl sm:text-3xl white-glow hover:cursor-pointer'
 					to='hero'

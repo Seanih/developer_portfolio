@@ -50,13 +50,13 @@ html {
 }
 
 body {
+	height: 100svh;
 	background-color: black;
 	color: white;
 	background-image: url('/stars.jpeg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
 	background-attachment: fixed;
 }
 
