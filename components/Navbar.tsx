@@ -1,5 +1,4 @@
 import { TiThMenuOutline, TiTimesOutline } from 'react-icons/ti';
-// import Link from 'next/link';
 import { Link } from 'react-scroll';
 
 interface NavbarProps {

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function smartBank() {
+function SmartBank() {
 	return (
 		<div className='h-screen flex flex-col items-center justify-center'>
 			<Link href={'/'}>
@@ -12,4 +12,4 @@ function smartBank() {
 		</div>
 	);
 }
-export default smartBank;
+export default SmartBank;

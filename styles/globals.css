@@ -47,11 +47,11 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: black;
 }
 
 body {
 	height: 100svh;
+	background-color: black;
 	color: white;
 	background-image: url('/stars.jpeg');
 	background-size: cover;
@@ -80,3 +80,4 @@ body {
 	/* You can adjust the glow effect by modifying the text-shadow values here */
 	text-shadow: 0 0 5px white;
 }
+

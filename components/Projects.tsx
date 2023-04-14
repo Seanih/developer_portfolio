@@ -42,7 +42,7 @@ function Projects() {
 					{(isFirstClickOnBlog || showBlogModal) && (
 						<div className='z-10 absolute top-0 h-full w-full flex flex-col justify-center items-center bg-slate-900/70'>
 							<h3 className='mb-12 sm:mb-8'>Developer Blog</h3>
-							<Link href={'dev_blog'}>
+							<Link href={'dev-blog'}>
 								<motion.button
 									type='button'
 									whileHover={{ scale: 1.1 }}
@@ -69,7 +69,7 @@ function Projects() {
 					{(isFirstClickOnSmart || showSmartModal) && (
 						<div className='z-10 absolute top-0 h-full w-full flex flex-col justify-center items-center bg-slate-900/70'>
 							<h3 className='mb-12 sm:mb-8'>Smart Bank</h3>
-							<Link href={'/smart_bank'}>
+							<Link href={'/smart-bank'}>
 								<motion.button
 									type='button'
 									whileHover={{ scale: 1.1 }}
