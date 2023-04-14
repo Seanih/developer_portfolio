@@ -47,11 +47,11 @@
 
 html {
 	scroll-behavior: smooth;
+	background-color: black;
 }
 
 body {
 	height: 100svh;
-	background-color: black;
 	color: white;
 	background-image: url('/stars.jpeg');
 	background-size: cover;
