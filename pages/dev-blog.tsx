@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 const technologies = [
 	'Next JS | React',
+	'NextAuth.js',
 	'Tailwind CSS',
 	'PostgreSQL',
 	'AWS RDS',
@@ -36,9 +37,9 @@ function DevBlog() {
 			<Link href={'/'} className='mt-16'>
 				<button
 					type='button'
-					className='h-16 w-36 bg-cyan-700 rounded-xl text-white hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-lg ease-in duration-100'
+					className='h-16 w-36 bg-cyan-700 rounded-xl text-white text-lg hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-xl ease-in duration-100'
 				>
-					back to main
+					Back
 				</button>
 			</Link>
 			<h1 className='my-8'>Developer Blog</h1>
@@ -77,7 +78,7 @@ function DevBlog() {
 						variants={container}
 						initial='hidden'
 						whileInView='visible'
-						className='p-8 list-disc'
+						className='p-8 list-disc text-lg'
 					>
 						{technologies.map((tech, index) => (
 							<motion.li
@@ -92,26 +93,29 @@ function DevBlog() {
 				</div>
 			</div>
 
-			<div className='mb-12'>
-				<Link href={'/'} className='mt-16 mr-8'>
-					<button
-						type='button'
-						className='h-16 w-36 bg-cyan-700 rounded-xl text-white hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-lg ease-in duration-100'
-					>
-						back to main
+			{/* Links */}
+			<div className='grid grid-cols-3 gap-4 sm:gap-8 mb-12 text-center text-lg sm:text-xl'>
+				<Link
+					href={'/'}
+					className='p-2 bg-cyan-700 rounded-xl text-white hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+				>
+					<button type='button' className=''>
+						Back
 					</button>
+				</Link>
+				<Link
+					href={'https://codechronicles.vercel.app/'}
+					target='_blank'
+					className='p-2 bg-green-800 rounded-xl text-white hover:bg-green-700 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+				>
+					<button type='button'>Visit Site</button>
 				</Link>
 				<Link
 					href={'https://github.com/Seanih/my-dev-blog'}
 					target='_blank'
-					className='mt-16'
+					className='p-2 bg-sky-800 rounded-xl text-white hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
 				>
-					<button
-						type='button'
-						className='h-16 w-36 bg-sky-800 rounded-xl text-white hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-lg ease-in duration-100'
-					>
-						Github repo
-					</button>
+					<button type='button'>Github Repo</button>
 				</Link>
 			</div>
 		</div>
