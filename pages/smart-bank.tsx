@@ -56,7 +56,7 @@ function SmartBank() {
 				></iframe>
 			</div>
 
-			<p className='mt-8 max-w-lg text-lg bg-black'>
+			<p className='mt-8 max-w-lg text-lg text-center sm:text-left bg-black'>
 				This is a fully functional{' '}
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					DApp (decentralized application)
