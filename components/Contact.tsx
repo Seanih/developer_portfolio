@@ -9,10 +9,12 @@ function Contact() {
 		const observer = new IntersectionObserver(entries => {
 			if (entries[0].isIntersecting) {
 				const target = baffle('.contact-me');
+
 				target.set({
 					characters: '░P░h░a░n░t░o░m░',
 					speed: 50,
 				});
+
 				setTimeout(function () {
 					target.start();
 					target.reveal(750, 750);

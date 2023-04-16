@@ -36,7 +36,12 @@ function Projects() {
 					onMouseEnter={() => setShowBlogModal(true)}
 					onMouseLeave={() => setShowBlogModal(false)}
 				>
-					<Image src={'/code_pic.jpeg'} alt='code' width={600} height={400} />
+					<Image
+						src={'/dev-blog-pic.png'}
+						alt='blog screenshot'
+						width={600}
+						height={400}
+					/>
 
 					{/* Learn More Modal */}
 					{(isFirstClickOnBlog || showBlogModal) && (
@@ -63,7 +68,12 @@ function Projects() {
 					onMouseEnter={() => setShowSmartModal(true)}
 					onMouseLeave={() => setShowSmartModal(false)}
 				>
-					<Image src={'/code_pic.jpeg'} alt='code' width={600} height={400} />
+					<Image
+						src={'/smart-bank-pic.png'}
+						alt='DApp screenshot'
+						width={600}
+						height={400}
+					/>
 
 					{/* Learn More Modal */}
 					{(isFirstClickOnSmart || showSmartModal) && (
