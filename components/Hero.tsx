@@ -33,7 +33,7 @@ function Hero() {
 						<div className='flex items-end md:justify-center mx-4'>
 							<span className='font-bold'>Occupation: </span>
 							<TypeAnimation
-								sequence={['', 1000, 'Software Engineer']}
+								sequence={['', 1000, 'FullStack Developer']}
 								speed={11}
 								cursor={false}
 								className='px-2 ml-4 border-b text-center'

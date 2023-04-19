@@ -8,9 +8,9 @@ function About() {
 			<h2 className='text-center mb-8'>About Me</h2>
 			<p className='bg-black/70 text-lg'>
 				Hey! My name is Sean Anih (pronounced Ah-nee), and I'm a web developer
-				who focuses on building cloud-based and blockchain applications.
-				Currently, I'm diving deeper into data structures & algorithms and
-				exploring ways to integrate AI into applications so I can{' '}
+				who builds cloud-based and blockchain applications. Currently, I'm
+				diving deeper into data structures & algorithms and exploring ways to
+				integrate AI into applications so I can{' '}
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					help you build products
 				</span>{' '}

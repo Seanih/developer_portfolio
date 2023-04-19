@@ -117,7 +117,7 @@ function SmartBank() {
 				<Link
 					href={'https://github.com/Seanih/smart_bank'}
 					target='_blank'
-					className='p-2 bg-sky-800 rounded-xl text-white hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+					className='p-2 px-4 bg-sky-800 rounded-xl text-white hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
 				>
 					<button type='button'>Github Repo</button>
 				</Link>

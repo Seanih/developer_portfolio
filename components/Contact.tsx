@@ -1,5 +1,6 @@
 import baffle from 'baffle';
 import { FormEvent, useEffect, useRef, useState } from 'react';
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
@@ -70,6 +71,39 @@ function Contact() {
 				<h2 ref={contactMeRef} className='contact-me mt-12 mb-8 text-center'>
 					Contact Me
 				</h2>
+
+				{/* Socials */}
+				<div className='w-full flex flex-col items-center mb-8'>
+					<div className='flex item-center justify-between w-3/5 sm:w-1/2 max-w-lg py-4 px-8 rounded-lg shadow-lg hover:scale-105 ease-in duration-200'>
+						<a
+							className='hover:bg-slate-600 rounded-full'
+							href='https://www.linkedin.com/in/sean-anih-86a425268/'
+							target='_blank'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100'>
+								<FaLinkedinIn />
+							</div>
+						</a>
+						<a
+							className='hover:bg-slate-600 rounded-full'
+							href='https://twitter.com/fullstack_sean'
+							target='_blank'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100'>
+								<FaTwitter />
+							</div>
+						</a>
+						<a
+							className='hover:bg-slate-600 rounded-full'
+							href='https://github.com/Seanih'
+							target='_blank'
+						>
+							<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-100'>
+								<FaGithub />
+							</div>
+						</a>
+					</div>
+				</div>
 				<form
 					ref={formRef}
 					className='flex flex-col max-w-[700px] mx-auto p-8 bg-slate-800 rounded-xl text-lg'
