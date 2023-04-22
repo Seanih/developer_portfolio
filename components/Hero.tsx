@@ -15,13 +15,13 @@ function Hero() {
 			>
 				<div className='inner-element sm:text-xl lg:text-2xl'>
 					<Image
-						className='border-x border-t border-white w-4/5 sm:w-3/5 mx-auto rounded-t-xl'
+						className='w-4/5 mx-auto border-t border-white border-x sm:w-3/5 rounded-t-xl'
 						src={demoPic}
 						alt='my picture'
 					/>
 					{/* Name and Occupation */}
-					<div className='border-t rounded-xl grid sm:grid-cols-2 py-4 sm:px-8 xs:text-xl'>
-						<div className='flex items-end md:justify-center mx-4 mb-4 sm:mb-0'>
+					<div className='grid py-4 border-t rounded-xl sm:grid-cols-2 sm:px-8 xs:text-xl'>
+						<div className='flex items-end mx-4 mb-4 md:justify-center sm:mb-0'>
 							<span className='font-bold'>Name: </span>
 							<TypeAnimation
 								sequence={['Sean Anih']}
@@ -30,20 +30,20 @@ function Hero() {
 								className='px-2 ml-4 border-b'
 							/>
 						</div>
-						<div className='flex items-end md:justify-center mx-4'>
+						<div className='flex items-end mx-4 md:justify-center'>
 							<span className='font-bold'>Occupation: </span>
 							<TypeAnimation
 								sequence={['', 1000, 'FullStack Developer']}
 								speed={11}
 								cursor={false}
-								className='px-2 ml-4 border-b text-center'
+								className='px-2 ml-4 text-center border-b'
 							/>
 						</div>
 					</div>
 					{/* Areas of focus */}
-					<div className='flex items-end md:mt-4 ml-4 sm:justify-center rounded-xl sm:px-12 xs:text-xl lg:text-2xl'>
+					<div className='flex items-end ml-4 md:mt-4 sm:justify-center rounded-xl sm:px-12 xs:text-xl lg:text-2xl'>
 						<span className='font-bold'>Area(s) of focus: </span>
-						<div className='px-2 text-center ml-4 border-b'>
+						<div className='px-2 ml-4 text-center border-b'>
 							<TypeAnimation
 								sequence={[
 									'',

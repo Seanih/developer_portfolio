@@ -28,10 +28,10 @@ function Projects() {
 	return (
 		<section id='projects' className='w-[90%] md:w-3/4 mx-auto max-w-[900px]'>
 			<h2 className={'mt-12 mb-8 text-center'}>FullStack Projects</h2>
-			<div className='grid sm:grid-cols-2 justify-center'>
+			<div className='grid justify-center sm:grid-cols-2'>
 				{/* Developr Blog */}
 				<div
-					className='relative border sm:mr-4 mb-12 sm:mb-0'
+					className='relative mb-12 border sm:mr-4 sm:mb-0'
 					onClick={handleClickBlog}
 					onMouseEnter={() => setShowBlogModal(true)}
 					onMouseLeave={() => setShowBlogModal(false)}
@@ -45,14 +45,14 @@ function Projects() {
 
 					{/* Learn More Modal */}
 					{(isFirstClickOnBlog || showBlogModal) && (
-						<div className='z-10 absolute top-0 h-full w-full flex flex-col justify-center items-center bg-slate-900/70'>
+						<div className='absolute top-0 z-10 flex flex-col items-center justify-center w-full h-full bg-slate-900/70'>
 							<h3 className='mb-12 sm:mb-8'>Developer Blog</h3>
 							<Link href={'dev-blog'}>
 								<motion.button
 									type='button'
 									whileHover={{ scale: 1.1 }}
 									whileTap={{ scale: 0.9 }}
-									className='p-4 bg-gradient-to-br from-sky-600 via-green-700 to-cyan-600 hover:from-sky-700 hover:via-green-800 hover:to-cyan-700 rounded-lg text-xl font-semibold'
+									className='p-4 text-xl font-semibold rounded-lg bg-gradient-to-br from-sky-600 via-green-700 to-cyan-600 hover:from-sky-700 hover:via-green-800 hover:to-cyan-700'
 								>
 									Learn More
 								</motion.button>
@@ -77,14 +77,14 @@ function Projects() {
 
 					{/* Learn More Modal */}
 					{(isFirstClickOnSmart || showSmartModal) && (
-						<div className='z-10 absolute top-0 h-full w-full flex flex-col justify-center items-center bg-slate-900/70'>
+						<div className='absolute top-0 z-10 flex flex-col items-center justify-center w-full h-full bg-slate-900/70'>
 							<h3 className='mb-12 sm:mb-8'>Smart Bank</h3>
 							<Link href={'/smart-bank'}>
 								<motion.button
 									type='button'
 									whileHover={{ scale: 1.1 }}
 									whileTap={{ scale: 0.9 }}
-									className='p-4 bg-gradient-to-br from-sky-600 via-green-700 to-cyan-600 hover:from-sky-700 hover:via-green-800 hover:to-cyan-700 rounded-lg text-xl font-semibold'
+									className='p-4 text-xl font-semibold rounded-lg bg-gradient-to-br from-sky-600 via-green-700 to-cyan-600 hover:from-sky-700 hover:via-green-800 hover:to-cyan-700'
 								>
 									Learn More
 								</motion.button>

@@ -5,8 +5,8 @@ function About() {
 			id='about'
 			className='w-[90%] md:w-3/4 mx-auto max-w-[900px] mt-12 text-slate-200'
 		>
-			<h2 className='text-center mb-8'>About Me</h2>
-			<p className='bg-black/70 text-lg'>
+			<h2 className='mb-8 text-center'>About Me</h2>
+			<p className='text-lg bg-black/70'>
 				Hey! My name is Sean Anih (pronounced Ah-nee), and I'm a web developer
 				who builds cloud-based and blockchain applications. Currently, I'm
 				diving deeper into data structures & algorithms and exploring ways to

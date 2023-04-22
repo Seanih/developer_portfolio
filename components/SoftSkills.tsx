@@ -28,7 +28,7 @@ function SoftSkills() {
 			className={`border bg-gradient-to-bl from-cyan-800 to-black py-8 sm:px-8 text-xl`}
 		>
 			<div className='flex justify-around'>
-				<div className='justify-self-center text-base sm:text-xl'>
+				<div className='text-base justify-self-center sm:text-xl'>
 					<motion.ul
 						variants={container}
 						initial='hidden'
@@ -42,7 +42,7 @@ function SoftSkills() {
 						))}
 					</motion.ul>
 				</div>
-				<div className='justify-self-center text-base sm:text-xl'>
+				<div className='text-base justify-self-center sm:text-xl'>
 					<motion.ul
 						variants={container}
 						initial='hidden'

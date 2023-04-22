@@ -37,7 +37,7 @@ function DevBlog() {
 			<Link href={'/'} className='mt-16'>
 				<button
 					type='button'
-					className='h-16 w-36 bg-cyan-700 rounded-xl text-white text-lg hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-xl ease-in duration-100'
+					className='h-16 text-lg text-white duration-100 ease-in w-36 bg-cyan-700 rounded-xl hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 hover:text-xl'
 				>
 					Back
 				</button>
@@ -54,7 +54,7 @@ function DevBlog() {
 				></iframe>
 			</div>
 
-			<p className='mt-8 max-w-lg text-lg text-center sm:text-left bg-black'>
+			<p className='max-w-lg mt-8 text-lg text-center bg-black sm:text-left'>
 				This is a{' '}
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					fully functional blog application
@@ -70,7 +70,7 @@ function DevBlog() {
 
 			{/* Tech Stack */}
 			<div className='my-8 border'>
-				<h3 className='border p-8 text-center bg-gradient-to-br from-sky-800 to-black'>
+				<h3 className='p-8 text-center border bg-gradient-to-br from-sky-800 to-black'>
 					Technologies Used
 				</h3>
 				<div className='bg-gradient-to-br from-cyan-700 to-black'>
@@ -78,7 +78,7 @@ function DevBlog() {
 						variants={container}
 						initial='hidden'
 						whileInView='visible'
-						className='p-8 list-disc text-lg'
+						className='p-8 text-lg list-disc'
 					>
 						{technologies.map((tech, index) => (
 							<motion.li
@@ -94,24 +94,24 @@ function DevBlog() {
 			</div>
 
 			{/* Links */}
-			<div className='grid grid-cols-3 gap-4 sm:gap-8 mb-12 text-center text-lg sm:text-xl'>
+			<div className='grid grid-cols-3 gap-4 mb-12 text-lg text-center sm:gap-8 sm:text-xl'>
 				<Link
 					href={'/'}
-					className='p-2 bg-cyan-700 rounded-xl text-white hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+					className='flex justify-center p-2 text-white bg-cyan-700 rounded-xl hover:bg-cyan-600 hover:cursor-pointer hover:underline underline-offset-4'
 				>
 					<button type='button'>Back</button>
 				</Link>
 				<Link
 					href={'https://codechronicles.vercel.app/'}
 					target='_blank'
-					className='p-2 bg-green-800 rounded-xl text-white hover:bg-green-700 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+					className='flex justify-center p-2 text-white bg-green-800 rounded-xl hover:bg-green-700 hover:cursor-pointer hover:underline underline-offset-4'
 				>
 					<button type='button'>Visit Site</button>
 				</Link>
 				<Link
 					href={'https://github.com/Seanih/my-dev-blog'}
 					target='_blank'
-					className='p-2 px-4 bg-sky-800 rounded-xl text-white hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4 flex justify-center'
+					className='flex justify-center p-2 px-4 text-white bg-sky-800 rounded-xl hover:bg-sky-600 hover:cursor-pointer hover:underline underline-offset-4'
 				>
 					<button type='button'>Github Repo</button>
 				</Link>

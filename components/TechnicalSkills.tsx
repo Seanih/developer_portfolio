@@ -25,9 +25,9 @@ function TechnicalSkills() {
 	};
 
 	return (
-		<div className='border bg-gradient-to-br from-sky-900 to-black py-8 sm:px-8 text-xl'>
+		<div className='py-8 text-xl border bg-gradient-to-br from-sky-900 to-black sm:px-8'>
 			<div className='flex justify-around'>
-				<div className='justify-self-center text-base sm:text-xl'>
+				<div className='text-base justify-self-center sm:text-xl'>
 					<span className='underline underline-offset-8'>
 						Languages/Frameworks
 					</span>
@@ -35,7 +35,7 @@ function TechnicalSkills() {
 						variants={container}
 						initial='hidden'
 						whileInView='visible'
-						className='mt-4 pl-4 list-disc'
+						className='pl-4 mt-4 list-disc'
 					>
 						{languages.map((language, index) => (
 							<motion.li key={index} variants={item}>
@@ -44,13 +44,13 @@ function TechnicalSkills() {
 						))}
 					</motion.ul>
 				</div>
-				<div className='justify-self-center text-base sm:text-xl'>
+				<div className='text-base justify-self-center sm:text-xl'>
 					<span className='underline underline-offset-8'>Dev Tools</span>
 					<motion.ul
 						variants={container}
 						initial='hidden'
 						whileInView='visible'
-						className='mt-4 pl-4 list-disc'
+						className='pl-4 mt-4 list-disc'
 					>
 						{devTools.map((tool, index) => (
 							<motion.li key={index} variants={item}>

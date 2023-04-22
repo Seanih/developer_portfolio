@@ -4,7 +4,7 @@ import TechnicalSkills from './TechnicalSkills';
 function Skills() {
 	return (
 		<section id='skills'>
-			<h2 className='text-center my-8'>My Skills</h2>
+			<h2 className='my-8 text-center'>My Skills</h2>
 			<div className='w-[90%] md:w-3/4 max-w-[900px] mx-auto'>
 				<div>
 					<h3
