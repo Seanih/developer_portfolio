@@ -51,7 +51,7 @@ function SmartBank() {
 					width='350'
 					height='195'
 					title='Project Demonstration'
-					src='https://www.youtube.com/embed/r-9QVXaboIQ'
+					src='https://www.youtube.com/embed/Q3fmm-KtvGo'
 					allowFullScreen
 				></iframe>
 			</div>
