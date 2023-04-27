@@ -44,12 +44,13 @@ function DevBlog() {
 			</Link>
 			<h1 className='my-8'>Developer Blog</h1>
 
-			<div className='ratio ratio-16x9 max-w-[600px] mx-auto'>
+			<div className='w-[90%] sm:w-3/4 max-w-[900px] border'>
 				<iframe
-					width='350'
-					height='195'
-					title='Project Demonstration'
-					src='https://www.youtube.com/embed/kVEfq92SZbs'
+					className='player'
+					title='YouTube video player'
+					src='https://www.youtube.com/embed/Q3fmm-KtvGo'
+					frameBorder='0'
+					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
 					allowFullScreen
 				></iframe>
 			</div>

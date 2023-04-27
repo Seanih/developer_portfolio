@@ -81,3 +81,7 @@ body {
 	text-shadow: 0 0 5px white;
 }
 
+.player {
+	aspect-ratio: 16 / 9;
+	width: 100%;
+}
