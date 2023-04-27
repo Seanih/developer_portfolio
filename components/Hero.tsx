@@ -1,22 +1,19 @@
 import Image from 'next/image';
-import demoPic from '../public/demo-pic.png';
+import MySelfie from '../public/AI-selfie.png';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
-import { useState } from 'react';
 
 function Hero() {
-	const [animationCompleted, setAnimationCompleted] = useState(false);
-
 	return (
 		<section id='hero' className='mt-16'>
 			<Tilt
-				className='parallax-effect w-[90%] md:w-3/4 mx-auto max-w-[900px] border p-4 rounded-2xl bg-gradient-radial sm:bg-gradient-conic from-sky-800 via-black to-cyan-700 pb-8'
+				className='parallax-effect w-[80%] md:w-2/3 mx-auto max-w-[800px] border p-4 rounded-2xl bg-gradient-radial sm:bg-gradient-conic from-sky-800 via-black to-cyan-700 pb-8'
 				perspective={1000}
 			>
 				<div className='inner-element sm:text-xl lg:text-2xl'>
 					<Image
 						className='w-4/5 mx-auto border-t border-white border-x sm:w-3/5 rounded-t-xl'
-						src={demoPic}
+						src={MySelfie}
 						alt='my picture'
 					/>
 					{/* Name and Occupation */}
