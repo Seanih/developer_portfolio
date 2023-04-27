@@ -48,7 +48,7 @@ function DevBlog() {
 				<iframe
 					className='player'
 					title='YouTube video player'
-					src='https://www.youtube.com/embed/Q3fmm-KtvGo'
+					src='https://www.youtube.com/embed/kVEfq92SZbs'
 					frameBorder='0'
 					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
 					allowFullScreen
