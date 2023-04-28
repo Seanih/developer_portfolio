@@ -39,7 +39,9 @@ function Hero() {
 					</div>
 					{/* Areas of focus */}
 					<div className='flex items-end ml-4 md:mt-4 sm:justify-center rounded-xl sm:px-12 xs:text-xl lg:text-2xl'>
-						<span className='font-bold'>Area(s) of focus: </span>
+						<span className='font-bold'>
+							Area(s) of <span className='block xs:inline'>focus:</span>{' '}
+						</span>
 						<div className='px-2 ml-4 text-center border-b'>
 							<TypeAnimation
 								sequence={[
