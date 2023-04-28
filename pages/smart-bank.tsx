@@ -56,6 +56,9 @@ function SmartBank() {
 					allowFullScreen
 				></iframe>
 			</div>
+			<figcaption className='bg-black'>
+				Enjoy the music - produced by yours truly!
+			</figcaption>
 
 			<p className='max-w-lg mt-8 text-lg text-center bg-black sm:text-left'>
 				This is a fully functional{' '}
