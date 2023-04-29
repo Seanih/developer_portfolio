@@ -67,6 +67,7 @@ function Navbar({ showMobileNav, setShowMobileNav }: NavbarProps) {
 						? 'sm:hidden z-[50] fixed border-x border-b border-white w-full bg-black py-8 top-[80px] ease-in-out duration-300'
 						: 'sm:hidden z-[50] fixed border-x border-b border-white w-full bg-black py-8 top-[-100%] ease-in-out duration-300'
 				}
+				style={{ transform: 'translateZ(200px)' }}
 			>
 				<ul className='flex justify-around text-xl text-slate-200'>
 					<li className='hover-link hover:cursor-pointer hover:text-sky-500 hover:underline hover:underline-offset-8 hover:scale-105 decoration-2'>
