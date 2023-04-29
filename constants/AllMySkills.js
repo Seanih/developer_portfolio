@@ -17,14 +17,14 @@ export const devTools = [
 
 export const softSkillsLeft = [
 	'Creativity',
+	'Resilience',
 	'Resourcefulness',
 	'Time Management',
-	'Persistence',
 ];
 
 export const softSkillsRight = [
-	'Communication',
-	'Adaptability',
-	'Conflict Resolution',
 	'Teamwork',
+	'Adaptability',
+	'Communication',
+	'Conflict Resolution',
 ];

@@ -27,7 +27,12 @@ function Projects() {
 
 	return (
 		<section id='projects' className='w-[90%] md:w-3/4 mx-auto max-w-[900px]'>
-			<h2 className={'mt-12 mb-8 text-center'}>FullStack Projects</h2>
+			<h2 className={'mt-12 mb-4 text-center'}>FullStack Projects</h2>
+			<div className='flex'>
+				<p className='inline-block mx-auto mb-4 text-xl bg-black'>
+					click/tap a project to learn more
+				</p>
+			</div>
 			<div className='grid justify-center sm:grid-cols-2'>
 				{/* Developr Blog */}
 				<div
