@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -36,6 +37,11 @@ function SmartBank() {
 
 	return (
 		<div className='flex flex-col items-center justify-center w-[90%] sm:w-3/4  max-w-[900px] mx-auto text-white'>
+			<Head>
+				<title>FullStackSean || SmartBank Project</title>
+				<meta name='description' content='My portfolio website' />
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<Link href={'/'} className='mt-16'>
 				<button
 					type='button'
@@ -57,7 +63,7 @@ function SmartBank() {
 				></iframe>
 			</div>
 			<figcaption className='bg-black'>
-				Enjoy the music - produced by yours truly!
+				Enjoy the music - produced by yours truly
 			</figcaption>
 
 			<p className='max-w-lg mt-8 text-lg text-center bg-black sm:text-left'>

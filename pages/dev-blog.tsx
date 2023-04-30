@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
@@ -34,6 +35,11 @@ function DevBlog() {
 
 	return (
 		<div className='flex flex-col items-center justify-center w-[90%] sm:w-3/4  max-w-[900px] mx-auto text-white'>
+			<Head>
+				<title>FullStackSean || CodeChronicles Project</title>
+				<meta name='description' content='My portfolio website' />
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<Link href={'/'} className='mt-16'>
 				<button
 					type='button'
@@ -42,7 +48,9 @@ function DevBlog() {
 					Back
 				</button>
 			</Link>
-			<h1 className='my-8 px-12 text-4xl'>CodeChronicles Blog Demo</h1>
+			<h1 className='my-8 px-12 text-4xl text-center'>
+				CodeChronicles Blog Demo
+			</h1>
 
 			<div className='w-[90%] sm:w-3/4 max-w-[900px] border'>
 				<iframe
@@ -55,7 +63,7 @@ function DevBlog() {
 				></iframe>
 			</div>
 			<figcaption className='bg-black'>
-				Enjoy the music - produced by yours truly!
+				Enjoy the music - produced by yours truly
 			</figcaption>
 
 			<p className='max-w-lg mt-8 text-lg text-center bg-black sm:text-left'>

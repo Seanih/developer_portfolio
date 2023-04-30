@@ -14,7 +14,7 @@ export default function Home() {
 	return (
 		<div className='flex flex-col items-center'>
 			<Head>
-				<title>Sean Anih || Developer Portfolio</title>
+				<title>FullStackSean || Main</title>
 				<meta name='description' content='My portfolio website' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
