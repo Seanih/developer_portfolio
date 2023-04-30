@@ -42,7 +42,7 @@ function DevBlog() {
 					Back
 				</button>
 			</Link>
-			<h1 className='my-8'>Developer Blog</h1>
+			<h1 className='my-8 px-12 text-4xl'>CodeChronicles Blog Demo</h1>
 
 			<div className='w-[90%] sm:w-3/4 max-w-[900px] border'>
 				<iframe

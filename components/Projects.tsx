@@ -51,7 +51,7 @@ function Projects() {
 					{/* Learn More Modal */}
 					{(isFirstClickOnBlog || showBlogModal) && (
 						<div className='absolute top-0 z-10 flex flex-col items-center justify-center w-full h-full bg-slate-900/70'>
-							<h3 className='mb-12 sm:mb-8'>Developer Blog</h3>
+							<h3 className='mb-12 sm:mb-8'>CodeChronicles Blog</h3>
 							<Link href={'dev-blog'}>
 								<motion.button
 									type='button'
@@ -83,7 +83,7 @@ function Projects() {
 					{/* Learn More Modal */}
 					{(isFirstClickOnSmart || showSmartModal) && (
 						<div className='absolute top-0 z-10 flex flex-col items-center justify-center w-full h-full bg-slate-900/70'>
-							<h3 className='mb-12 sm:mb-8'>Smart Bank</h3>
+							<h3 className='mb-12 sm:mb-8'>SmartBank DApp</h3>
 							<Link href={'/smart-bank'}>
 								<motion.button
 									type='button'
