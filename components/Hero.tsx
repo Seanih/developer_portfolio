@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import MySelfie from '../public/AI-selfie.png';
+import MySelfie from '../public/AI-selfie-compressed.png';
 import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 

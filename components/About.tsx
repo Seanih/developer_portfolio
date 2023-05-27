@@ -9,8 +9,7 @@ function About() {
 			<p className='text-lg bg-black/70'>
 				Hey! My name is Sean Anih (pronounced Ah-nee), and I'm a full-stack web
 				developer who builds cloud-based and blockchain applications. Currently,
-				I'm diving deeper into data structures & algorithms and exploring ways
-				to integrate AI into applications so I can{' '}
+				I'm diving deeper into data structures & algorithms and Networking so I can{' '}
 				<span className='font-bold text-transparent bg-clip-text bg-gradient-to-br from-sky-950 via-green-300 to-cyan-600'>
 					help you build products
 				</span>{' '}
